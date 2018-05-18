@@ -1,4 +1,4 @@
-nightwatch-slack-reporter
+nightwatch-slack-failure-reporter
 =========================
 
 [![Travis CI](https://travis-ci.org/ngs/nightwatch-slack-reporter.svg?branch=master)](https://travis-ci.org/ngs/nightwatch-slack-reporter)
@@ -12,7 +12,7 @@ Install
 -------
 
 ```sh
-npm install --save-dev nightwatch-slack-reporter
+npm install --save-dev nightwatch-slack-failure-reporter
 ```
 
 Usage
@@ -23,14 +23,14 @@ Using Built in Nightwatch reporter
 ```js
 // globals.js
 module.exports = {
-  reporter: (require('nightwatch-slack-reporter')(options))
+  reporter: (require('nightwatch-slack-failure-reporter')(options))
 }
 ```
 
 Using Command Line Options
 
 ```sh
-nightwatch --reporter node_modules/nightwatch-slack-reporter/lib/reporter.js
+nightwatch --reporter node_modules/nightwatch-slack-failure-reporter/lib/report.js
 ```
 
 Options
