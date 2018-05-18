@@ -1,9 +1,6 @@
 nightwatch-slack-failure-reporter
 =========================
 
-[![Travis CI](https://travis-ci.org/ngs/nightwatch-slack-reporter.svg?branch=master)](https://travis-ci.org/ngs/nightwatch-slack-reporter)
-[![npm](	https://img.shields.io/npm/v/nightwatch-slack-reporter.svg)](https://www.npmjs.com/package/nightwatch-slack-reporter)
-
 A [Nightwatch.js] reporter that notifies results to [Slack]
 
 ![](screen.png)
